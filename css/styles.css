@@ -1,0 +1,256 @@
+.inner {
+  background-color: #2C3D4F;
+}
+
+.main {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.sub__main {
+  border-radius: 2%;
+  width: 900px;
+  height: 655px;
+  background-color: #24252A;
+}
+
+.inner__tittle-div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.inner__tittle {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 300;
+}
+
+.inner__heading-span {
+  color: gray;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.inner__button {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 28px;
+  border: none;
+  height: 30px;
+  background-color: rgb(75, 68, 68);
+  transition: 0.5s;
+}
+
+.inner__button:hover {
+  background-color: rgba(131, 79, 79, 0.808);
+}
+
+.close path {
+  fill: gray;
+  transition: 0.3s;
+}
+
+.close:hover path {
+  fill: #FFFFFF;
+}
+
+.inner__close {
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: 12px;
+  background-color: #24252A;
+}
+
+.inner__texxt {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+.inner__line {
+  margin: 0 auto;
+  text-align: center;
+  width: 856px;
+  height: 2px;
+  background-color: gray;
+  display: flex;
+}
+
+.inner__chec-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+table {
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  margin-left: 105px;
+  margin-top: 20px;
+}
+
+.td label {
+  cursor: pointer;
+}
+
+.td label input[type=checkbox] {
+  display: none;
+}
+
+.a {
+  padding: 3px 1px;
+}
+
+tr {
+  transform: rotateX(50deg);
+}
+
+.td label span {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  background-color: #44ABFE;
+  color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 0.5s;
+  width: 34px;
+
+}
+
+.td label .green {
+  background-color: #65D158;
+}
+
+.td label span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  content: "";
+}
+
+.td label input[type=checkbox]:checked~span {
+  box-shadow: 0 0px 15px #44ABFE;
+  background-color: #44ABFE;
+  color: white;
+  position: relative;
+}
+
+.td label input[type=checkbox]:checked~.green {
+  box-shadow: 0 0px 15px rgba(100, 209, 88, 0.6862745098);
+  background-color: #65D158;
+}
+
+.t label input[type=checkbox] {
+  display: none;
+}
+
+.t {
+  font-family: "Roboto";
+  color: white;
+}
+
+.td label input[type=checkbox]:checked~.green::before {
+  width: 42px;
+  height: 44px;
+  top: -6px;
+  left: -6px;
+  border-radius: 50%;
+  border: 2px solid #65D158;
+  content: "";
+}
+
+.td label input[type=checkbox]:checked~span::before {
+  width: 42px;
+  height: 44px;
+  top: -6px;
+  left: -6px;
+  border-radius: 50%;
+  border: 2px solid #44ABFE;
+  content: "";
+  transition: all 0.3s;
+}
+
+.done-div {
+  margin-top: 20px;
+  display: flex;
+}
+
+.child {
+  margin-top: 30px;
+}
+
+.inner__texxxt {
+  position: relative;
+  margin-left: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.inner__texxxt1 {
+  position: relative;
+  margin-left: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.inner__texxxt1::before {
+  position: absolute;
+  top: 3px;
+  left: -17px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #44ABFE;
+  content: "";
+}
+
+
+.inner__done {
+  cursor: pointer;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #44ABFE;
+  margin-left: auto;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.inner__done:hover {
+  background-color: rgb(59, 47, 47);
+}
+
+.inner__texxxt::before {
+  position: absolute;
+  top: 3px;
+  left: -17px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #65D158;
+  content: "";
+}
